@@ -9,13 +9,19 @@
   <tr>
     <td align="center" width="96">
       <a href="#macropower-tech">
-        <img src="./img/go-flat.svg" width="48" height="48" alt="Golang" />
+        <img src="./img/go-flat.svg" width="48" height="48" alt="Swift" />
       </a>
       <br>Swift
     </td>
+        <td align="center" width="96">
+      <a href="#macropower-tech">
+        <img src="./img/go-flat.svg" width="48" height="48" alt="SwiftUI" />
+      </a>
+      <br>SwiftUI
+    </td>
     <td align="center" width="96">
       <a href="#macropower-tech">
-        <img src="./img/python-original.svg" width="48" height="48" alt="Python" />
+        <img src="./img/python-original.svg" width="48" height="48" alt="Firebase" />
       </a>
       <br>Firebase
     </td>
