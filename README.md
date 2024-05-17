@@ -1,7 +1,10 @@
 <h1 align="left" id="macropower-title">:wave: Hello there! I'm Max Lakhman</h1>
 <h3 align="left">I'm iOS Developer</h3>
 
-
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://www.swift.org/assets/images/swift~dark.svg">
+  <img src="https://www.swift.org/assets/images/swift.svg" alt="Swift logo" height="70">
+</picture>
 
 > Tools, languages, and services
 
