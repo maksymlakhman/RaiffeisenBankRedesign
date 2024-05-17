@@ -1,0 +1,648 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9DA2B9E12BF75274000C4FC2 /* RaiffeisenBankRedesignApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA2B9E02BF75274000C4FC2 /* RaiffeisenBankRedesignApp.swift */; };
+		9DA2B9E52BF75275000C4FC2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9DA2B9E42BF75275000C4FC2 /* Assets.xcassets */; };
+		9DA2B9E82BF75275000C4FC2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9DA2B9E72BF75275000C4FC2 /* Preview Assets.xcassets */; };
+		9DA2B9F02BF752DC000C4FC2 /* BottomSheetHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA2B9EE2BF752DC000C4FC2 /* BottomSheetHelper.swift */; };
+		9DA2BA182BF752FF000C4FC2 /* UserItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA2B9F12BF752FF000C4FC2 /* UserItem.swift */; };
+		9DA2BA192BF752FF000C4FC2 /* AuthProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA2B9F32BF752FF000C4FC2 /* AuthProvider.swift */; };
+		9DA2BA1A2BF752FF000C4FC2 /* AuthViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA2B9F52BF752FF000C4FC2 /* AuthViewModel.swift */; };
+		9DA2BA1B2BF752FF000C4FC2 /* AuthButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA2B9F72BF752FF000C4FC2 /* AuthButtonView.swift */; };
+		9DA2BA1C2BF752FF000C4FC2 /* AuthCharNumberField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA2B9F82BF752FF000C4FC2 /* AuthCharNumberField.swift */; };
+		9DA2BA1D2BF752FF000C4FC2 /* AuthTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA2B9F92BF752FF000C4FC2 /* AuthTextField.swift */; };
+		9DA2BA1E2BF752FF000C4FC2 /* LoginScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA2B9FA2BF752FF000C4FC2 /* LoginScreen.swift */; };
+		9DA2BA1F2BF752FF000C4FC2 /* OtpFormFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA2B9FB2BF752FF000C4FC2 /* OtpFormFieldView.swift */; };
+		9DA2BA202BF752FF000C4FC2 /* OtpModifer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA2B9FC2BF752FF000C4FC2 /* OtpModifer.swift */; };
+		9DA2BA212BF752FF000C4FC2 /* RegestrationScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA2B9FD2BF752FF000C4FC2 /* RegestrationScreen.swift */; };
+		9DA2BA222BF752FF000C4FC2 /* WelcomeHeaderMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA2B9FE2BF752FF000C4FC2 /* WelcomeHeaderMainView.swift */; };
+		9DA2BA232BF752FF000C4FC2 /* WelcomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA2B9FF2BF752FF000C4FC2 /* WelcomeScreen.swift */; };
+		9DA2BA242BF752FF000C4FC2 /* ChatScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA2BA022BF752FF000C4FC2 /* ChatScreen.swift */; };
+		9DA2BA252BF752FF000C4FC2 /* CreateScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA2BA042BF752FF000C4FC2 /* CreateScreen.swift */; };
+		9DA2BA262BF752FF000C4FC2 /* BottomSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA2BA062BF752FF000C4FC2 /* BottomSheet.swift */; };
+		9DA2BA272BF752FF000C4FC2 /* HistoryScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA2BA072BF752FF000C4FC2 /* HistoryScreen.swift */; };
+		9DA2BA282BF752FF000C4FC2 /* HalfSheetController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA2BA092BF752FF000C4FC2 /* HalfSheetController.swift */; };
+		9DA2BA292BF752FF000C4FC2 /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA2BA0A2BF752FF000C4FC2 /* HomeScreen.swift */; };
+		9DA2BA2A2BF752FF000C4FC2 /* RootScreenModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA2BA0C2BF752FF000C4FC2 /* RootScreenModel.swift */; };
+		9DA2BA2B2BF752FF000C4FC2 /* RootScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA2BA0E2BF752FF000C4FC2 /* RootScreen.swift */; };
+		9DA2BA2C2BF752FF000C4FC2 /* ServicesScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA2BA112BF752FF000C4FC2 /* ServicesScreen.swift */; };
+		9DA2BA2D2BF752FF000C4FC2 /* CustomTabbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA2BA132BF752FF000C4FC2 /* CustomTabbar.swift */; };
+		9DA2BA2E2BF752FF000C4FC2 /* FirebaseConstans.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA2BA152BF752FF000C4FC2 /* FirebaseConstans.swift */; };
+		9DA2BA312BF75362000C4FC2 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 9DA2BA302BF75362000C4FC2 /* FirebaseAuth */; };
+		9DA2BA332BF75362000C4FC2 /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = 9DA2BA322BF75362000C4FC2 /* FirebaseDatabase */; };
+		9DA2BA352BF75362000C4FC2 /* FirebaseDatabaseSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 9DA2BA342BF75362000C4FC2 /* FirebaseDatabaseSwift */; };
+		9DA2BA372BF75362000C4FC2 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 9DA2BA362BF75362000C4FC2 /* FirebaseFirestore */; };
+		9DA2BA392BF75362000C4FC2 /* FirebaseMessaging in Frameworks */ = {isa = PBXBuildFile; productRef = 9DA2BA382BF75362000C4FC2 /* FirebaseMessaging */; };
+		9DA2BA3B2BF75362000C4FC2 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 9DA2BA3A2BF75362000C4FC2 /* FirebaseStorage */; };
+		9DA2BA3D2BF75426000C4FC2 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9DA2BA3C2BF75426000C4FC2 /* GoogleService-Info.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9DA2B9DD2BF75274000C4FC2 /* RaiffeisenBankRedesign.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RaiffeisenBankRedesign.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9DA2B9E02BF75274000C4FC2 /* RaiffeisenBankRedesignApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RaiffeisenBankRedesignApp.swift; sourceTree = "<group>"; };
+		9DA2B9E42BF75275000C4FC2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9DA2B9E72BF75275000C4FC2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9DA2B9EE2BF752DC000C4FC2 /* BottomSheetHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BottomSheetHelper.swift; sourceTree = "<group>"; };
+		9DA2B9F12BF752FF000C4FC2 /* UserItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserItem.swift; sourceTree = "<group>"; };
+		9DA2B9F32BF752FF000C4FC2 /* AuthProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthProvider.swift; sourceTree = "<group>"; };
+		9DA2B9F52BF752FF000C4FC2 /* AuthViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthViewModel.swift; sourceTree = "<group>"; };
+		9DA2B9F72BF752FF000C4FC2 /* AuthButtonView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthButtonView.swift; sourceTree = "<group>"; };
+		9DA2B9F82BF752FF000C4FC2 /* AuthCharNumberField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthCharNumberField.swift; sourceTree = "<group>"; };
+		9DA2B9F92BF752FF000C4FC2 /* AuthTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthTextField.swift; sourceTree = "<group>"; };
+		9DA2B9FA2BF752FF000C4FC2 /* LoginScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginScreen.swift; sourceTree = "<group>"; };
+		9DA2B9FB2BF752FF000C4FC2 /* OtpFormFieldView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OtpFormFieldView.swift; sourceTree = "<group>"; };
+		9DA2B9FC2BF752FF000C4FC2 /* OtpModifer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OtpModifer.swift; sourceTree = "<group>"; };
+		9DA2B9FD2BF752FF000C4FC2 /* RegestrationScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegestrationScreen.swift; sourceTree = "<group>"; };
+		9DA2B9FE2BF752FF000C4FC2 /* WelcomeHeaderMainView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomeHeaderMainView.swift; sourceTree = "<group>"; };
+		9DA2B9FF2BF752FF000C4FC2 /* WelcomeScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomeScreen.swift; sourceTree = "<group>"; };
+		9DA2BA022BF752FF000C4FC2 /* ChatScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatScreen.swift; sourceTree = "<group>"; };
+		9DA2BA042BF752FF000C4FC2 /* CreateScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateScreen.swift; sourceTree = "<group>"; };
+		9DA2BA062BF752FF000C4FC2 /* BottomSheet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BottomSheet.swift; sourceTree = "<group>"; };
+		9DA2BA072BF752FF000C4FC2 /* HistoryScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HistoryScreen.swift; sourceTree = "<group>"; };
+		9DA2BA092BF752FF000C4FC2 /* HalfSheetController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HalfSheetController.swift; sourceTree = "<group>"; };
+		9DA2BA0A2BF752FF000C4FC2 /* HomeScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
+		9DA2BA0C2BF752FF000C4FC2 /* RootScreenModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootScreenModel.swift; sourceTree = "<group>"; };
+		9DA2BA0E2BF752FF000C4FC2 /* RootScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootScreen.swift; sourceTree = "<group>"; };
+		9DA2BA112BF752FF000C4FC2 /* ServicesScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServicesScreen.swift; sourceTree = "<group>"; };
+		9DA2BA132BF752FF000C4FC2 /* CustomTabbar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTabbar.swift; sourceTree = "<group>"; };
+		9DA2BA152BF752FF000C4FC2 /* FirebaseConstans.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirebaseConstans.swift; sourceTree = "<group>"; };
+		9DA2BA3C2BF75426000C4FC2 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9DA2B9DA2BF75274000C4FC2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DA2BA352BF75362000C4FC2 /* FirebaseDatabaseSwift in Frameworks */,
+				9DA2BA372BF75362000C4FC2 /* FirebaseFirestore in Frameworks */,
+				9DA2BA392BF75362000C4FC2 /* FirebaseMessaging in Frameworks */,
+				9DA2BA332BF75362000C4FC2 /* FirebaseDatabase in Frameworks */,
+				9DA2BA312BF75362000C4FC2 /* FirebaseAuth in Frameworks */,
+				9DA2BA3B2BF75362000C4FC2 /* FirebaseStorage in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9DA2B9D42BF75274000C4FC2 = {
+			isa = PBXGroup;
+			children = (
+				9DA2B9DF2BF75274000C4FC2 /* RaiffeisenBankRedesign */,
+				9DA2B9DE2BF75274000C4FC2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9DA2B9DE2BF75274000C4FC2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9DA2B9DD2BF75274000C4FC2 /* RaiffeisenBankRedesign.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9DA2B9DF2BF75274000C4FC2 /* RaiffeisenBankRedesign */ = {
+			isa = PBXGroup;
+			children = (
+				9DA2BA142BF752FF000C4FC2 /* Screens */,
+				9DA2BA172BF752FF000C4FC2 /* Service */,
+				9DA2BA162BF752FF000C4FC2 /* Utills */,
+				9DA2B9EF2BF752DC000C4FC2 /* Extensions */,
+				9DA2B9E02BF75274000C4FC2 /* RaiffeisenBankRedesignApp.swift */,
+				9DA2B9E42BF75275000C4FC2 /* Assets.xcassets */,
+				9DA2BA3C2BF75426000C4FC2 /* GoogleService-Info.plist */,
+				9DA2B9E62BF75275000C4FC2 /* Preview Content */,
+			);
+			path = RaiffeisenBankRedesign;
+			sourceTree = "<group>";
+		};
+		9DA2B9E62BF75275000C4FC2 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				9DA2B9E72BF75275000C4FC2 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		9DA2B9EF2BF752DC000C4FC2 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				9DA2B9EE2BF752DC000C4FC2 /* BottomSheetHelper.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		9DA2B9F22BF752FF000C4FC2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9DA2B9F12BF752FF000C4FC2 /* UserItem.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9DA2B9F42BF752FF000C4FC2 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				9DA2B9F32BF752FF000C4FC2 /* AuthProvider.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		9DA2B9F62BF752FF000C4FC2 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				9DA2B9F52BF752FF000C4FC2 /* AuthViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		9DA2BA002BF752FF000C4FC2 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				9DA2B9F72BF752FF000C4FC2 /* AuthButtonView.swift */,
+				9DA2B9F82BF752FF000C4FC2 /* AuthCharNumberField.swift */,
+				9DA2B9F92BF752FF000C4FC2 /* AuthTextField.swift */,
+				9DA2B9FA2BF752FF000C4FC2 /* LoginScreen.swift */,
+				9DA2B9FB2BF752FF000C4FC2 /* OtpFormFieldView.swift */,
+				9DA2B9FC2BF752FF000C4FC2 /* OtpModifer.swift */,
+				9DA2B9FD2BF752FF000C4FC2 /* RegestrationScreen.swift */,
+				9DA2B9FE2BF752FF000C4FC2 /* WelcomeHeaderMainView.swift */,
+				9DA2B9FF2BF752FF000C4FC2 /* WelcomeScreen.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		9DA2BA012BF752FF000C4FC2 /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				9DA2B9F22BF752FF000C4FC2 /* Model */,
+				9DA2B9F42BF752FF000C4FC2 /* Services */,
+				9DA2B9F62BF752FF000C4FC2 /* ViewModels */,
+				9DA2BA002BF752FF000C4FC2 /* Views */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		9DA2BA032BF752FF000C4FC2 /* Chat */ = {
+			isa = PBXGroup;
+			children = (
+				9DA2BA022BF752FF000C4FC2 /* ChatScreen.swift */,
+			);
+			path = Chat;
+			sourceTree = "<group>";
+		};
+		9DA2BA052BF752FF000C4FC2 /* Creation */ = {
+			isa = PBXGroup;
+			children = (
+				9DA2BA042BF752FF000C4FC2 /* CreateScreen.swift */,
+			);
+			path = Creation;
+			sourceTree = "<group>";
+		};
+		9DA2BA082BF752FF000C4FC2 /* History */ = {
+			isa = PBXGroup;
+			children = (
+				9DA2BA062BF752FF000C4FC2 /* BottomSheet.swift */,
+				9DA2BA072BF752FF000C4FC2 /* HistoryScreen.swift */,
+			);
+			path = History;
+			sourceTree = "<group>";
+		};
+		9DA2BA0B2BF752FF000C4FC2 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				9DA2BA092BF752FF000C4FC2 /* HalfSheetController.swift */,
+				9DA2BA0A2BF752FF000C4FC2 /* HomeScreen.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		9DA2BA0D2BF752FF000C4FC2 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				9DA2BA0C2BF752FF000C4FC2 /* RootScreenModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		9DA2BA0F2BF752FF000C4FC2 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				9DA2BA0E2BF752FF000C4FC2 /* RootScreen.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		9DA2BA102BF752FF000C4FC2 /* Root */ = {
+			isa = PBXGroup;
+			children = (
+				9DA2BA0D2BF752FF000C4FC2 /* ViewModels */,
+				9DA2BA0F2BF752FF000C4FC2 /* Views */,
+			);
+			path = Root;
+			sourceTree = "<group>";
+		};
+		9DA2BA122BF752FF000C4FC2 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				9DA2BA112BF752FF000C4FC2 /* ServicesScreen.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		9DA2BA142BF752FF000C4FC2 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				9DA2BA012BF752FF000C4FC2 /* Auth */,
+				9DA2BA032BF752FF000C4FC2 /* Chat */,
+				9DA2BA052BF752FF000C4FC2 /* Creation */,
+				9DA2BA082BF752FF000C4FC2 /* History */,
+				9DA2BA0B2BF752FF000C4FC2 /* Home */,
+				9DA2BA102BF752FF000C4FC2 /* Root */,
+				9DA2BA122BF752FF000C4FC2 /* Services */,
+				9DA2BA132BF752FF000C4FC2 /* CustomTabbar.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		9DA2BA162BF752FF000C4FC2 /* Utills */ = {
+			isa = PBXGroup;
+			children = (
+				9DA2BA152BF752FF000C4FC2 /* FirebaseConstans.swift */,
+			);
+			path = Utills;
+			sourceTree = "<group>";
+		};
+		9DA2BA172BF752FF000C4FC2 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9DA2B9DC2BF75274000C4FC2 /* RaiffeisenBankRedesign */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9DA2B9EB2BF75275000C4FC2 /* Build configuration list for PBXNativeTarget "RaiffeisenBankRedesign" */;
+			buildPhases = (
+				9DA2B9D92BF75274000C4FC2 /* Sources */,
+				9DA2B9DA2BF75274000C4FC2 /* Frameworks */,
+				9DA2B9DB2BF75274000C4FC2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RaiffeisenBankRedesign;
+			packageProductDependencies = (
+				9DA2BA302BF75362000C4FC2 /* FirebaseAuth */,
+				9DA2BA322BF75362000C4FC2 /* FirebaseDatabase */,
+				9DA2BA342BF75362000C4FC2 /* FirebaseDatabaseSwift */,
+				9DA2BA362BF75362000C4FC2 /* FirebaseFirestore */,
+				9DA2BA382BF75362000C4FC2 /* FirebaseMessaging */,
+				9DA2BA3A2BF75362000C4FC2 /* FirebaseStorage */,
+			);
+			productName = RaiffeisenBankRedesign;
+			productReference = 9DA2B9DD2BF75274000C4FC2 /* RaiffeisenBankRedesign.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9DA2B9D52BF75274000C4FC2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					9DA2B9DC2BF75274000C4FC2 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+				};
+			};
+			buildConfigurationList = 9DA2B9D82BF75274000C4FC2 /* Build configuration list for PBXProject "RaiffeisenBankRedesign" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9DA2B9D42BF75274000C4FC2;
+			packageReferences = (
+				9DA2BA2F2BF75362000C4FC2 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			productRefGroup = 9DA2B9DE2BF75274000C4FC2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9DA2B9DC2BF75274000C4FC2 /* RaiffeisenBankRedesign */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9DA2B9DB2BF75274000C4FC2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DA2B9E82BF75275000C4FC2 /* Preview Assets.xcassets in Resources */,
+				9DA2B9E52BF75275000C4FC2 /* Assets.xcassets in Resources */,
+				9DA2BA3D2BF75426000C4FC2 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9DA2B9D92BF75274000C4FC2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DA2BA282BF752FF000C4FC2 /* HalfSheetController.swift in Sources */,
+				9DA2BA1B2BF752FF000C4FC2 /* AuthButtonView.swift in Sources */,
+				9DA2BA292BF752FF000C4FC2 /* HomeScreen.swift in Sources */,
+				9DA2BA1C2BF752FF000C4FC2 /* AuthCharNumberField.swift in Sources */,
+				9DA2BA222BF752FF000C4FC2 /* WelcomeHeaderMainView.swift in Sources */,
+				9DA2BA2D2BF752FF000C4FC2 /* CustomTabbar.swift in Sources */,
+				9DA2BA212BF752FF000C4FC2 /* RegestrationScreen.swift in Sources */,
+				9DA2B9E12BF75274000C4FC2 /* RaiffeisenBankRedesignApp.swift in Sources */,
+				9DA2BA2E2BF752FF000C4FC2 /* FirebaseConstans.swift in Sources */,
+				9DA2BA202BF752FF000C4FC2 /* OtpModifer.swift in Sources */,
+				9DA2BA272BF752FF000C4FC2 /* HistoryScreen.swift in Sources */,
+				9DA2BA1A2BF752FF000C4FC2 /* AuthViewModel.swift in Sources */,
+				9DA2BA192BF752FF000C4FC2 /* AuthProvider.swift in Sources */,
+				9DA2BA1D2BF752FF000C4FC2 /* AuthTextField.swift in Sources */,
+				9DA2BA2A2BF752FF000C4FC2 /* RootScreenModel.swift in Sources */,
+				9DA2BA262BF752FF000C4FC2 /* BottomSheet.swift in Sources */,
+				9DA2BA2B2BF752FF000C4FC2 /* RootScreen.swift in Sources */,
+				9DA2B9F02BF752DC000C4FC2 /* BottomSheetHelper.swift in Sources */,
+				9DA2BA242BF752FF000C4FC2 /* ChatScreen.swift in Sources */,
+				9DA2BA182BF752FF000C4FC2 /* UserItem.swift in Sources */,
+				9DA2BA2C2BF752FF000C4FC2 /* ServicesScreen.swift in Sources */,
+				9DA2BA232BF752FF000C4FC2 /* WelcomeScreen.swift in Sources */,
+				9DA2BA1E2BF752FF000C4FC2 /* LoginScreen.swift in Sources */,
+				9DA2BA1F2BF752FF000C4FC2 /* OtpFormFieldView.swift in Sources */,
+				9DA2BA252BF752FF000C4FC2 /* CreateScreen.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		9DA2B9E92BF75275000C4FC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9DA2B9EA2BF75275000C4FC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9DA2B9EC2BF75275000C4FC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"RaiffeisenBankRedesign/Preview Content\"";
+				DEVELOPMENT_TEAM = 7L7LCFBR3F;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.maksymlakhman.RaiffeisenBankRedesign;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9DA2B9ED2BF75275000C4FC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"RaiffeisenBankRedesign/Preview Content\"";
+				DEVELOPMENT_TEAM = 7L7LCFBR3F;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.maksymlakhman.RaiffeisenBankRedesign;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9DA2B9D82BF75274000C4FC2 /* Build configuration list for PBXProject "RaiffeisenBankRedesign" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9DA2B9E92BF75275000C4FC2 /* Debug */,
+				9DA2B9EA2BF75275000C4FC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9DA2B9EB2BF75275000C4FC2 /* Build configuration list for PBXNativeTarget "RaiffeisenBankRedesign" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9DA2B9EC2BF75275000C4FC2 /* Debug */,
+				9DA2B9ED2BF75275000C4FC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		9DA2BA2F2BF75362000C4FC2 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.26.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		9DA2BA302BF75362000C4FC2 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9DA2BA2F2BF75362000C4FC2 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		9DA2BA322BF75362000C4FC2 /* FirebaseDatabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9DA2BA2F2BF75362000C4FC2 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabase;
+		};
+		9DA2BA342BF75362000C4FC2 /* FirebaseDatabaseSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9DA2BA2F2BF75362000C4FC2 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabaseSwift;
+		};
+		9DA2BA362BF75362000C4FC2 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9DA2BA2F2BF75362000C4FC2 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		9DA2BA382BF75362000C4FC2 /* FirebaseMessaging */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9DA2BA2F2BF75362000C4FC2 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseMessaging;
+		};
+		9DA2BA3A2BF75362000C4FC2 /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9DA2BA2F2BF75362000C4FC2 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 9DA2B9D52BF75274000C4FC2 /* Project object */;
+}
