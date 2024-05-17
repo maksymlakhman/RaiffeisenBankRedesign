@@ -1,16 +1,40 @@
-<h1 align="left" id="macropower-title">:wave: Hello there! I'm Max Lakhman</h1>
-<h3 align="left">I'm iOS Developer</h3>
+<h1 align="left" id="macropower-title"><h2> <img src="https://emojis.slackmojis.com/emojis/images/1588315024/8823/hyperkitty.gif?1588315024" width="30" /> Hi, welcome! </h2>I'm Max Lakhman</h1>
+<h3 align="left">Trainee iOS Developer</h3>
 
-<picture>
+
+<h1 align="left" >I Love <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://www.swift.org/assets/images/swift~dark.svg">
-  <img src="https://www.swift.org/assets/images/swift.svg" alt="Swift logo" height="70">
-</picture>
+  <img src="https://www.swift.org/assets/images/swift.svg" alt="Swift logo" height="30">
+</picture> and I try to practice every day </h1>
 
-<p align="center">
-  <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExYmRqd2pheHM3ejJxb3JwMXhqam1va2Q3YzJvdms2c2V6aGNlMm5lZiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/gOCuFQHrvZCNUilEtf/giphy.gif">
-</p>
+<sub>🔥 This is my pet project where I experiment with different technologies</sub>
 
-> Tools, languages, and services
+<table>
+  <tr>
+    <td align="center">
+      <a href="#macropower-tech">
+        <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExYmRqd2pheHM3ejJxb3JwMXhqam1va2Q3YzJvdms2c2V6aGNlMm5lZiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/gOCuFQHrvZCNUilEtf/giphy.gif">
+      </a>
+      <br>Sign Up
+    </td>
+        <td align="center"">
+      <a href="#macropower-tech">
+        <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExZzVhYnE3bTNsc3JqdnA5bjMwbzZ3eng2YmNtOWRib2w0enN4aDFhZCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/fuH5wlfMOYPDFwaXcg/giphy.gif">
+      </a>
+      <br>Sign In
+    </td>
+    <td align="center">
+      <a href="#macropower-tech">
+        <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExa21hZGc3NWtyY2o3YmNoMHkybDJjc2xxMTJ1bXB1aWc0ZGFueTJ3ZyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/6xdrALtqmZ2GQmBgZg/giphy.gif">
+      </a>
+      <br>Home Tab
+    </td>
+  </tr>
+</table>
+
+
+
+<h3> <img src="https://emojis.slackmojis.com/emojis/images/1621024394/39092/cat-roll.gif?1621024394" width="28" /> <a href=""> > Tools, languages, and services </a></h3>
 
 <table>
   <tr>
