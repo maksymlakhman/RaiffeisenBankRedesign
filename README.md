@@ -39,19 +39,25 @@
 <table>
   <tr>
     <td align="center" width="96">
-      <a href="#macropower-tech">
+      <a href="">
+        <img src="https://developer.apple.com/assets/elements/icons/xcode-12/xcode-12-96x96_2x.png" width="48" height="48" alt="Xcode" />
+      </a>
+      <br>Xcode
+    </td>
+    <td align="center" width="96">
+      <a href="">
         <img src="https://developer.apple.com/assets/elements/icons/swift/swift-96x96.png" width="48" height="48" alt="Swift" />
       </a>
       <br>Swift
     </td>
-        <td align="center" width="96">
-      <a href="#macropower-tech">
+    <td align="center" width="96">
+      <a href="">
         <img src="https://developer.apple.com/assets/elements/icons/swiftui/swiftui-96x96_2x.png" width="48" height="48" alt="SwiftUI" />
       </a>
       <br>SwiftUI
     </td>
     <td align="center" width="96">
-      <a href="#macropower-tech">
+      <a href="">
         <img src="https://www.gstatic.com/mobilesdk/240501_mobilesdk/firebase_28dp.png" width="48" height="48" alt="Firebase" />
       </a>
       <br>Firebase
