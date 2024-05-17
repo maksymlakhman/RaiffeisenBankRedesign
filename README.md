@@ -1,5 +1,5 @@
-<h1 align="left" id="macropower-title"><h2> <img src="https://emojis.slackmojis.com/emojis/images/1588315024/8823/hyperkitty.gif?1588315024" width="30" /> Hi, welcome! </h2>I'm Max</h1>
-<h3 align="left">Trainee iOS Developer</h3>
+<h1 align="left" id=""><h2> <img src="https://emojis.slackmojis.com/emojis/images/1588315024/8823/hyperkitty.gif?1588315024" width="30" /> Hi, welcome! </h1>
+<h3 align="left"></h2>I'm Max <img src="https://media.giphy.com/media/aXLZvmVw8goBe4cNM6/giphy.gif" alt="my logo" height="130" width="170"> Trainee iOS Developer</h3>
 
 
 <h1 align="left" >I Love <picture>
@@ -40,19 +40,19 @@
   <tr>
     <td align="center" width="96">
       <a href="#macropower-tech">
-        <img src="./img/go-flat.svg" width="48" height="48" alt="Swift" />
+        <img src="https://developer.apple.com/assets/elements/icons/swift/swift-96x96.png" width="48" height="48" alt="Swift" />
       </a>
       <br>Swift
     </td>
         <td align="center" width="96">
       <a href="#macropower-tech">
-        <img src="./img/go-flat.svg" width="48" height="48" alt="SwiftUI" />
+        <img src="https://developer.apple.com/assets/elements/icons/swiftui/swiftui-96x96_2x.png" width="48" height="48" alt="SwiftUI" />
       </a>
       <br>SwiftUI
     </td>
     <td align="center" width="96">
       <a href="#macropower-tech">
-        <img src="./img/python-original.svg" width="48" height="48" alt="Firebase" />
+        <img src="https://www.gstatic.com/mobilesdk/240501_mobilesdk/firebase_28dp.png" width="48" height="48" alt="Firebase" />
       </a>
       <br>Firebase
     </td>
