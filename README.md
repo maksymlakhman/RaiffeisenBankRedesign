@@ -1,4 +1,4 @@
-<h1 align="left" id="macropower-title"><h2> <img src="https://emojis.slackmojis.com/emojis/images/1588315024/8823/hyperkitty.gif?1588315024" width="30" /> Hi, welcome! </h2>I'm Max Lakhman</h1>
+<h1 align="left" id="macropower-title"><h2> <img src="https://emojis.slackmojis.com/emojis/images/1588315024/8823/hyperkitty.gif?1588315024" width="30" /> Hi, welcome! </h2>I'm Max</h1>
 <h3 align="left">Trainee iOS Developer</h3>
 
 
