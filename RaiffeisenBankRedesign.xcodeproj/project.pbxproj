@@ -112,7 +112,6 @@
 			isa = PBXGroup;
 			children = (
 				9DA2BA142BF752FF000C4FC2 /* Screens */,
-				9DA2BA172BF752FF000C4FC2 /* Service */,
 				9DA2BA162BF752FF000C4FC2 /* Utills */,
 				9DA2B9EF2BF752DC000C4FC2 /* Extensions */,
 				9DA2B9E02BF75274000C4FC2 /* RaiffeisenBankRedesignApp.swift */,
@@ -278,13 +277,6 @@
 				9DA2BA152BF752FF000C4FC2 /* FirebaseConstans.swift */,
 			);
 			path = Utills;
-			sourceTree = "<group>";
-		};
-		9DA2BA172BF752FF000C4FC2 /* Service */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Service;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
