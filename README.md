@@ -62,5 +62,11 @@
       </a>
       <br>Firebase
     </td>
+    <td align="center" width="96">
+      <a href="">
+        <img src="https://developer.apple.com/assets/elements/icons/swiftdata/swiftdata-96x96_2x.png" width="48" height="48" alt="SwiftData" />
+      </a>
+      <br>SwiftData
+    </td>
   </tr>
 </table>
