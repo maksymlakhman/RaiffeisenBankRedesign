@@ -499,7 +499,7 @@ struct TransactionListView: View {
     }
     
     private var sortedCards: [TransactionItemDataModel] {
-        cards.sorted { $0.currentTimeAndDate > $1.currentTimeAndDate } // Сортування в зворотному порядку
+        cards.sorted { $0.currentTimeAndDate > $1.currentTimeAndDate }
     }
     
     
