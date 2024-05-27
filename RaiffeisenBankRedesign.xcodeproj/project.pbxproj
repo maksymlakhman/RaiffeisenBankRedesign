@@ -7,6 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9D4180322C03590B00B34201 /* CardList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D4180312C03590B00B34201 /* CardList.swift */; };
+		9D4180362C03598000B34201 /* CardItemViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D4180352C03598000B34201 /* CardItemViewModel.swift */; };
+		9D4180382C03599E00B34201 /* CardModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D4180372C03599E00B34201 /* CardModel.swift */; };
+		9D41803A2C035BDD00B34201 /* CreateCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D4180392C035BDD00B34201 /* CreateCardView.swift */; };
+		9D41803C2C03653000B34201 /* CardItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D41803B2C03653000B34201 /* CardItem.swift */; };
+		9D41803E2C0365EB00B34201 /* ItemCardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D41803D2C0365EB00B34201 /* ItemCardViewModel.swift */; };
+		9D4180402C03A9E800B34201 /* CreateTeamUserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D41803F2C03A9E800B34201 /* CreateTeamUserViewModel.swift */; };
+		9D4180422C03A9FA00B34201 /* CreateTeamViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D4180412C03A9FA00B34201 /* CreateTeamViewModel.swift */; };
+		9D4180442C03AA0E00B34201 /* ReceiveViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D4180432C03AA0E00B34201 /* ReceiveViewModel.swift */; };
+		9D4180462C03AA2300B34201 /* SalaryCalculatorViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D4180452C03AA2300B34201 /* SalaryCalculatorViewModel.swift */; };
+		9D4180482C03AA3700B34201 /* UserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D4180472C03AA3700B34201 /* UserViewModel.swift */; };
+		9D41804A2C03AAFE00B34201 /* CreateTeamView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D4180492C03AAFE00B34201 /* CreateTeamView.swift */; };
+		9D41804C2C03ADA300B34201 /* ParametersCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D41804B2C03ADA300B34201 /* ParametersCardView.swift */; };
+		9D41804E2C03AFA700B34201 /* TeamView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D41804D2C03AFA700B34201 /* TeamView.swift */; };
+		9D4180502C03B01B00B34201 /* ListUsers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D41804F2C03B01B00B34201 /* ListUsers.swift */; };
+		9D4180522C03B23900B34201 /* CreateTeamUserSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D4180512C03B23900B34201 /* CreateTeamUserSheetView.swift */; };
+		9D4180542C03C01300B34201 /* ReceiveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D4180532C03C01300B34201 /* ReceiveView.swift */; };
+		9D53AFC02C01F80B00AD0801 /* LaunchScreenViewTestLS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D53AFBF2C01F80B00AD0801 /* LaunchScreenViewTestLS.swift */; };
+		9D53AFC42C0200F400AD0801 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D53AFC32C0200F400AD0801 /* Launch Screen.storyboard */; };
+		9D53AFC62C020A3800AD0801 /* CustomProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D53AFC52C020A3800AD0801 /* CustomProgressView.swift */; };
 		9DA2B9E12BF75274000C4FC2 /* RaiffeisenBankRedesignApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA2B9E02BF75274000C4FC2 /* RaiffeisenBankRedesignApp.swift */; };
 		9DA2B9E52BF75275000C4FC2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9DA2B9E42BF75275000C4FC2 /* Assets.xcassets */; };
 		9DA2B9E82BF75275000C4FC2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9DA2B9E72BF75275000C4FC2 /* Preview Assets.xcassets */; };
@@ -24,7 +44,7 @@
 		9DA2BA222BF752FF000C4FC2 /* WelcomeHeaderMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA2B9FE2BF752FF000C4FC2 /* WelcomeHeaderMainView.swift */; };
 		9DA2BA232BF752FF000C4FC2 /* WelcomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA2B9FF2BF752FF000C4FC2 /* WelcomeScreen.swift */; };
 		9DA2BA242BF752FF000C4FC2 /* ChatScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA2BA022BF752FF000C4FC2 /* ChatScreen.swift */; };
-		9DA2BA252BF752FF000C4FC2 /* CreateScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA2BA042BF752FF000C4FC2 /* CreateScreen.swift */; };
+		9DA2BA252BF752FF000C4FC2 /* InvoicesScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA2BA042BF752FF000C4FC2 /* InvoicesScreen.swift */; };
 		9DA2BA262BF752FF000C4FC2 /* BottomSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA2BA062BF752FF000C4FC2 /* BottomSheet.swift */; };
 		9DA2BA272BF752FF000C4FC2 /* HistoryScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA2BA072BF752FF000C4FC2 /* HistoryScreen.swift */; };
 		9DA2BA282BF752FF000C4FC2 /* HalfSheetController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA2BA092BF752FF000C4FC2 /* HalfSheetController.swift */; };
@@ -44,6 +64,27 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9D4180312C03590B00B34201 /* CardList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardList.swift; sourceTree = "<group>"; };
+		9D4180352C03598000B34201 /* CardItemViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardItemViewModel.swift; sourceTree = "<group>"; };
+		9D4180372C03599E00B34201 /* CardModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardModel.swift; sourceTree = "<group>"; };
+		9D4180392C035BDD00B34201 /* CreateCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateCardView.swift; sourceTree = "<group>"; };
+		9D41803B2C03653000B34201 /* CardItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardItem.swift; sourceTree = "<group>"; };
+		9D41803D2C0365EB00B34201 /* ItemCardViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemCardViewModel.swift; sourceTree = "<group>"; };
+		9D41803F2C03A9E800B34201 /* CreateTeamUserViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateTeamUserViewModel.swift; sourceTree = "<group>"; };
+		9D4180412C03A9FA00B34201 /* CreateTeamViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateTeamViewModel.swift; sourceTree = "<group>"; };
+		9D4180432C03AA0E00B34201 /* ReceiveViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReceiveViewModel.swift; sourceTree = "<group>"; };
+		9D4180452C03AA2300B34201 /* SalaryCalculatorViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SalaryCalculatorViewModel.swift; sourceTree = "<group>"; };
+		9D4180472C03AA3700B34201 /* UserViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewModel.swift; sourceTree = "<group>"; };
+		9D4180492C03AAFE00B34201 /* CreateTeamView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateTeamView.swift; sourceTree = "<group>"; };
+		9D41804B2C03ADA300B34201 /* ParametersCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParametersCardView.swift; sourceTree = "<group>"; };
+		9D41804D2C03AFA700B34201 /* TeamView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamView.swift; sourceTree = "<group>"; };
+		9D41804F2C03B01B00B34201 /* ListUsers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListUsers.swift; sourceTree = "<group>"; };
+		9D4180512C03B23900B34201 /* CreateTeamUserSheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateTeamUserSheetView.swift; sourceTree = "<group>"; };
+		9D4180532C03C01300B34201 /* ReceiveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReceiveView.swift; sourceTree = "<group>"; };
+		9D53AFBE2C01F53E00AD0801 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		9D53AFBF2C01F80B00AD0801 /* LaunchScreenViewTestLS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchScreenViewTestLS.swift; sourceTree = "<group>"; };
+		9D53AFC32C0200F400AD0801 /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		9D53AFC52C020A3800AD0801 /* CustomProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomProgressView.swift; sourceTree = "<group>"; };
 		9DA2B9DD2BF75274000C4FC2 /* RaiffeisenBankRedesign.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RaiffeisenBankRedesign.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9DA2B9E02BF75274000C4FC2 /* RaiffeisenBankRedesignApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RaiffeisenBankRedesignApp.swift; sourceTree = "<group>"; };
 		9DA2B9E42BF75275000C4FC2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -62,7 +103,7 @@
 		9DA2B9FE2BF752FF000C4FC2 /* WelcomeHeaderMainView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomeHeaderMainView.swift; sourceTree = "<group>"; };
 		9DA2B9FF2BF752FF000C4FC2 /* WelcomeScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomeScreen.swift; sourceTree = "<group>"; };
 		9DA2BA022BF752FF000C4FC2 /* ChatScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatScreen.swift; sourceTree = "<group>"; };
-		9DA2BA042BF752FF000C4FC2 /* CreateScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateScreen.swift; sourceTree = "<group>"; };
+		9DA2BA042BF752FF000C4FC2 /* InvoicesScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InvoicesScreen.swift; sourceTree = "<group>"; };
 		9DA2BA062BF752FF000C4FC2 /* BottomSheet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BottomSheet.swift; sourceTree = "<group>"; };
 		9DA2BA072BF752FF000C4FC2 /* HistoryScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HistoryScreen.swift; sourceTree = "<group>"; };
 		9DA2BA092BF752FF000C4FC2 /* HalfSheetController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HalfSheetController.swift; sourceTree = "<group>"; };
@@ -92,9 +133,41 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9D4180332C03592E00B34201 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				9D4180312C03590B00B34201 /* CardList.swift */,
+				9D4180392C035BDD00B34201 /* CreateCardView.swift */,
+				9D41803B2C03653000B34201 /* CardItem.swift */,
+				9D4180492C03AAFE00B34201 /* CreateTeamView.swift */,
+				9D41804B2C03ADA300B34201 /* ParametersCardView.swift */,
+				9D41804D2C03AFA700B34201 /* TeamView.swift */,
+				9D41804F2C03B01B00B34201 /* ListUsers.swift */,
+				9D4180512C03B23900B34201 /* CreateTeamUserSheetView.swift */,
+				9D4180532C03C01300B34201 /* ReceiveView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		9D4180342C03596B00B34201 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				9D4180352C03598000B34201 /* CardItemViewModel.swift */,
+				9D41803D2C0365EB00B34201 /* ItemCardViewModel.swift */,
+				9D41803F2C03A9E800B34201 /* CreateTeamUserViewModel.swift */,
+				9D4180412C03A9FA00B34201 /* CreateTeamViewModel.swift */,
+				9D4180432C03AA0E00B34201 /* ReceiveViewModel.swift */,
+				9D4180452C03AA2300B34201 /* SalaryCalculatorViewModel.swift */,
+				9D4180472C03AA3700B34201 /* UserViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
 		9DA2B9D42BF75274000C4FC2 = {
 			isa = PBXGroup;
 			children = (
+				9D53AFBF2C01F80B00AD0801 /* LaunchScreenViewTestLS.swift */,
+				9D53AFC32C0200F400AD0801 /* Launch Screen.storyboard */,
 				9DA2B9DF2BF75274000C4FC2 /* RaiffeisenBankRedesign */,
 				9DA2B9DE2BF75274000C4FC2 /* Products */,
 			);
@@ -111,6 +184,7 @@
 		9DA2B9DF2BF75274000C4FC2 /* RaiffeisenBankRedesign */ = {
 			isa = PBXGroup;
 			children = (
+				9D53AFBE2C01F53E00AD0801 /* Info.plist */,
 				9DA2BA142BF752FF000C4FC2 /* Screens */,
 				9DA2BA162BF752FF000C4FC2 /* Utills */,
 				9DA2B9EF2BF752DC000C4FC2 /* Extensions */,
@@ -197,12 +271,15 @@
 			path = Chat;
 			sourceTree = "<group>";
 		};
-		9DA2BA052BF752FF000C4FC2 /* Creation */ = {
+		9DA2BA052BF752FF000C4FC2 /* Invoices */ = {
 			isa = PBXGroup;
 			children = (
-				9DA2BA042BF752FF000C4FC2 /* CreateScreen.swift */,
+				9D4180342C03596B00B34201 /* ViewModels */,
+				9D4180332C03592E00B34201 /* Views */,
+				9DA2BA042BF752FF000C4FC2 /* InvoicesScreen.swift */,
+				9D4180372C03599E00B34201 /* CardModel.swift */,
 			);
-			path = Creation;
+			path = Invoices;
 			sourceTree = "<group>";
 		};
 		9DA2BA082BF752FF000C4FC2 /* History */ = {
@@ -235,6 +312,7 @@
 			isa = PBXGroup;
 			children = (
 				9DA2BA0E2BF752FF000C4FC2 /* RootScreen.swift */,
+				9D53AFC52C020A3800AD0801 /* CustomProgressView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -261,7 +339,7 @@
 			children = (
 				9DA2BA012BF752FF000C4FC2 /* Auth */,
 				9DA2BA032BF752FF000C4FC2 /* Chat */,
-				9DA2BA052BF752FF000C4FC2 /* Creation */,
+				9DA2BA052BF752FF000C4FC2 /* Invoices */,
 				9DA2BA082BF752FF000C4FC2 /* History */,
 				9DA2BA0B2BF752FF000C4FC2 /* Home */,
 				9DA2BA102BF752FF000C4FC2 /* Root */,
@@ -350,6 +428,7 @@
 			files = (
 				9DA2B9E82BF75275000C4FC2 /* Preview Assets.xcassets in Resources */,
 				9DA2B9E52BF75275000C4FC2 /* Assets.xcassets in Resources */,
+				9D53AFC42C0200F400AD0801 /* Launch Screen.storyboard in Resources */,
 				9DA2BA3D2BF75426000C4FC2 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -361,31 +440,50 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9D4180502C03B01B00B34201 /* ListUsers.swift in Sources */,
 				9DA2BA282BF752FF000C4FC2 /* HalfSheetController.swift in Sources */,
+				9D53AFC02C01F80B00AD0801 /* LaunchScreenViewTestLS.swift in Sources */,
 				9DA2BA1B2BF752FF000C4FC2 /* AuthButtonView.swift in Sources */,
 				9DA2BA292BF752FF000C4FC2 /* HomeScreen.swift in Sources */,
+				9D41804A2C03AAFE00B34201 /* CreateTeamView.swift in Sources */,
+				9D4180542C03C01300B34201 /* ReceiveView.swift in Sources */,
 				9DA2BA1C2BF752FF000C4FC2 /* AuthCharNumberField.swift in Sources */,
 				9DA2BA222BF752FF000C4FC2 /* WelcomeHeaderMainView.swift in Sources */,
+				9D4180362C03598000B34201 /* CardItemViewModel.swift in Sources */,
+				9D4180462C03AA2300B34201 /* SalaryCalculatorViewModel.swift in Sources */,
 				9DA2BA2D2BF752FF000C4FC2 /* CustomTabbar.swift in Sources */,
 				9DA2BA212BF752FF000C4FC2 /* RegestrationScreen.swift in Sources */,
 				9DA2B9E12BF75274000C4FC2 /* RaiffeisenBankRedesignApp.swift in Sources */,
+				9D41804C2C03ADA300B34201 /* ParametersCardView.swift in Sources */,
 				9DA2BA2E2BF752FF000C4FC2 /* FirebaseConstans.swift in Sources */,
 				9DA2BA202BF752FF000C4FC2 /* OtpModifer.swift in Sources */,
+				9D4180482C03AA3700B34201 /* UserViewModel.swift in Sources */,
+				9D4180442C03AA0E00B34201 /* ReceiveViewModel.swift in Sources */,
 				9DA2BA272BF752FF000C4FC2 /* HistoryScreen.swift in Sources */,
+				9D41804E2C03AFA700B34201 /* TeamView.swift in Sources */,
 				9DA2BA1A2BF752FF000C4FC2 /* AuthViewModel.swift in Sources */,
 				9DA2BA192BF752FF000C4FC2 /* AuthProvider.swift in Sources */,
 				9DA2BA1D2BF752FF000C4FC2 /* AuthTextField.swift in Sources */,
 				9DA2BA2A2BF752FF000C4FC2 /* RootScreenModel.swift in Sources */,
+				9D4180522C03B23900B34201 /* CreateTeamUserSheetView.swift in Sources */,
 				9DA2BA262BF752FF000C4FC2 /* BottomSheet.swift in Sources */,
+				9D41803C2C03653000B34201 /* CardItem.swift in Sources */,
+				9D53AFC62C020A3800AD0801 /* CustomProgressView.swift in Sources */,
+				9D4180422C03A9FA00B34201 /* CreateTeamViewModel.swift in Sources */,
 				9DA2BA2B2BF752FF000C4FC2 /* RootScreen.swift in Sources */,
 				9DA2B9F02BF752DC000C4FC2 /* BottomSheetHelper.swift in Sources */,
+				9D4180402C03A9E800B34201 /* CreateTeamUserViewModel.swift in Sources */,
 				9DA2BA242BF752FF000C4FC2 /* ChatScreen.swift in Sources */,
 				9DA2BA182BF752FF000C4FC2 /* UserItem.swift in Sources */,
 				9DA2BA2C2BF752FF000C4FC2 /* ServicesScreen.swift in Sources */,
+				9D41803E2C0365EB00B34201 /* ItemCardViewModel.swift in Sources */,
+				9D41803A2C035BDD00B34201 /* CreateCardView.swift in Sources */,
 				9DA2BA232BF752FF000C4FC2 /* WelcomeScreen.swift in Sources */,
 				9DA2BA1E2BF752FF000C4FC2 /* LoginScreen.swift in Sources */,
 				9DA2BA1F2BF752FF000C4FC2 /* OtpFormFieldView.swift in Sources */,
-				9DA2BA252BF752FF000C4FC2 /* CreateScreen.swift in Sources */,
+				9DA2BA252BF752FF000C4FC2 /* InvoicesScreen.swift in Sources */,
+				9D4180322C03590B00B34201 /* CardList.swift in Sources */,
+				9D4180382C03599E00B34201 /* CardModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -522,9 +620,10 @@
 				DEVELOPMENT_TEAM = 7L7LCFBR3F;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = RaiffeisenBankRedesign/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -551,9 +650,10 @@
 				DEVELOPMENT_TEAM = 7L7LCFBR3F;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = RaiffeisenBankRedesign/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (

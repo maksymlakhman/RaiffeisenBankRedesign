@@ -12,12 +12,27 @@ struct RootScreen: View {
     var body: some View {
         switch viewModel.authState {
         case .pending:
-            ProgressView()
+            CustomProgressView()
                 .controlSize(.large)
         case .loggedIn(let loggedInUser):
             RootTabBar(loggedInUser)
         case .loggedOut:
-            WelcomeScreen()
+            if isFirstLaunch() {
+                SplashView()
+            } else {
+                WelcomeScreen()
+            }
+
+        }
+    }
+    
+    func isFirstLaunch() -> Bool {
+        let defaults = UserDefaults.standard
+        if defaults.bool(forKey: "hasLaunchedBefore") {
+            return false
+        } else {
+            defaults.set(true, forKey: "hasLaunchedBefore")
+            return true
         }
     }
 }
@@ -25,3 +40,4 @@ struct RootScreen: View {
 #Preview {
     RootScreen()
 }
+

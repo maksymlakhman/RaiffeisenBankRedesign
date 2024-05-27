@@ -8,7 +8,6 @@
 import SwiftUI
 
 struct HomeScreen: View {
-    @State private var present : Bool = false
     var body: some View {
         NavigationStack{
             VStack {
@@ -233,11 +232,11 @@ private struct SendMoneyToView: View {
     }
 }
 
-//#Preview {
-//    NavigationStack {
-//        HomeScreen()
-//    }
-//}
+#Preview {
+    NavigationStack {
+        HomeScreen()
+    }
+}
 #Preview {
     RootTabBar(.placeholder)
 }

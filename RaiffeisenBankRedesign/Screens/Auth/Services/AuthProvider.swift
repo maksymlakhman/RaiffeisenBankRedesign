@@ -9,6 +9,7 @@ import Foundation
 import Combine
 import FirebaseAuth
 import FirebaseDatabase
+import SwiftUI
 
 enum AuthState {
     case pending, loggedIn(UserItem), loggedOut
@@ -43,10 +44,11 @@ extension AuthError : LocalizedError {
 }
 
 final class AuthManager: AuthProvider {
-    
     private init() {
         Task {
+
             await autoLogin()
+            
         }
     }
     
@@ -55,6 +57,8 @@ final class AuthManager: AuthProvider {
     var authState = CurrentValueSubject<AuthState, Never>(.pending)
     
     func autoLogin() async {
+        authState.send(.pending)
+        try? await Task.sleep(nanoseconds: 2 * 1_000_000_000)
         if Auth.auth().currentUser == nil {
             authState.send(.loggedOut)
         } else {
@@ -64,6 +68,8 @@ final class AuthManager: AuthProvider {
     
     func login(with email: String, and password: String) async throws {
         do {
+            authState.send(.pending)
+            try? await Task.sleep(nanoseconds: 3 * 1_000_000_000)
             let authResult = try await Auth.auth().signIn(withEmail: email, password: password)
             fetchCurrentUserInfo()
             print("🔐 Succesfully signed in \(authResult.user.email ?? "") ")
@@ -75,6 +81,8 @@ final class AuthManager: AuthProvider {
     
     func createAccount(for username: String, with email: String, and password: String) async throws {
         do {
+            authState.send(.pending)
+            try? await Task.sleep(nanoseconds: 4 * 1_000_000_000)
             let authResult = try await Auth.auth().createUser(withEmail: email, password: password)
             let uid = authResult.user.uid
             let newUser = UserItem(uid: uid, username: username, email: email/*, password: password*/)
@@ -88,6 +96,8 @@ final class AuthManager: AuthProvider {
     
     func logOut() async throws {
         do {
+            authState.send(.pending)
+            try? await Task.sleep(nanoseconds: 3 * 1_000_000_000)
             try Auth.auth().signOut()
             authState.send(.loggedOut)
             print("🔐 successfuly logged out!")

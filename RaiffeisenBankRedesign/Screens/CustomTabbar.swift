@@ -15,7 +15,7 @@ struct RootTabBar: View {
         self.currentUser = currentUser
     }
     
-    @State private var currentTab: Tab = .home
+    @State private var currentTab: Tab = .invoices
     
     var body: some View {
         VStack(spacing: 0) {
@@ -24,29 +24,32 @@ struct RootTabBar: View {
                     HomeScreen()
                         .tag(Tab.home)
                         .task {
-                            present = true
+                            present = false
                         }
-                        .sheet(isPresented: $present) {
-                            HalfSheet {
-                                ZStack(alignment: .bottom) {
-                                    ListView()
-                                }
-                            }
-                            .presentationDragIndicator(.visible)
-                            .presentationBackgroundInteraction(.enabled(upThrough: .height(100)))
-                            .bottomMaskForSheet()
-                            .interactiveDismissDisabled()
-                            .ignoresSafeArea()
-                        }
+//                        .task {
+//                            present = true
+//                        }
+//                        .sheet(isPresented: $present) {
+//                            HalfSheet {
+//                                ZStack(alignment: .bottom) {
+//                                    ListView()
+//                                }
+//                            }
+//                            .presentationDragIndicator(.visible)
+//                            .presentationBackgroundInteraction(.enabled(upThrough: .height(100)))
+//                            .bottomMaskForSheet()
+//                            .interactiveDismissDisabled()
+//                            .ignoresSafeArea()
+//                        }
                     HistoryScreen()
                         .tag(Tab.history)
                         .task {
                             present = false
                         }
-                    CreateScreen()
-                        .tag(Tab.create)
+                    InvoicesScreen(present: $present)
+                        .tag(Tab.invoices)
                         .task {
-                            present = false
+                            present = true
                         }
                     ServicesScreen()
                         .tag(Tab.services)
@@ -115,7 +118,7 @@ struct CustomTabbar: View {
                                 .foregroundColor(currentTab == tab ? .darkGray : .gray)
                                 .scaleEffect(currentTab == tab ? 1 : 0.9)
                                 .animation(currentTab == tab ? .spring(response: 0.5, dampingFraction: 0.3, blendDuration: 1) : .spring(), value: currentTab)
-                                .rotationEffect(currentTab == tab && currentTab == .create ? .degrees(90) : .degrees(0), anchor: .center)
+                                .rotationEffect(currentTab == tab && currentTab == .invoices ? .degrees(90) : .degrees(0), anchor: .center)
 
                         }
                     }
@@ -161,7 +164,7 @@ struct CustomTabbar: View {
             return 0
         case .history:
             return 1
-        case .create:
+        case .invoices:
             return 2
         case .services:
             return 3
@@ -218,7 +221,7 @@ extension View{
 enum Tab: String,CaseIterable{
     case home = "Головна"
     case history = "Платежі"
-    case create = "Перекази"
+    case invoices = "Перекази"
     case services = "Рахунки"
     case chat = "Чат"
 }

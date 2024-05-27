@@ -16,6 +16,7 @@ struct WelcomeScreen: View {
                 WelcomeGroupLoginAndScannerButtonsNavigation()
                 WelcomeBecomeAClientRegestrationButtonNavigation()
             }
+            .navigationBarBackButtonHidden()
             .toolbar{
                 leadingNavItem()
             }
